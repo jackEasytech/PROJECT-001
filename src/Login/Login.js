@@ -29,7 +29,8 @@ class Login extends Component {
 											<div className="input-group">
 												<span className="input-group-addon">
 													<i className="glyphicon glyphicon-user"></i>
-												</span> 
+												</span>
+                        <!--commit test-->
 												<input className="form-control" placeholder="Username" name="loginname" type="text" autofocus/>
 											</div>
 										</div>
