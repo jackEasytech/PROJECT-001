@@ -11,17 +11,17 @@ class Login extends Component {
     return (
         <div className="container" style={{marginTop:'40px'}}>
             <div className="row">
-			<div clclassNameass="col-sm-6 col-md-4 col-md-offset-4">
-				<div className="panel panel-default">
-					<div className="panel-heading">
-						<strong> Connectez-vous pour continuer</strong>
-					</div>
+			<div className="col-sm-6 col-md-11 col-md-offset-1">
+				<div className="panel panel-default login_panel">
 					<div className="panel-body">
+
 						<form>
 							<fieldset>
-								<div className="row">
+								<div className="row pull-center">
 									<div className="center-block">
-										<img className="profile-img" src={Photo} alt=""/>
+                    <header className="title_login">
+                          <h2>Authentification</h2>
+                    </header>
 									</div>
 								</div>
 								<div className="row">
@@ -31,7 +31,7 @@ class Login extends Component {
 												<span className="input-group-addon">
 													<i className="glyphicon glyphicon-user"></i>
 												</span>
-												<input className="form-control" placeholder="Username" name="loginname" type="text" autofocus/>
+												<input className="form-control" placeholder="Username" name="loginname" type="text" autoFocus/>
 											</div>
 										</div>
 										<div className="form-group">

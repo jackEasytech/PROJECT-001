@@ -12,76 +12,76 @@ class Accueil extends Component {
     <div id="wrapper">
 
         <div id="main">
-          <div class="inner">
+          <div className="inner">
               <header id="header">
-                <a href="#"  class="logo"><strong>Say</strong> Software</a>
+                <a href="#"  className="logo"><strong>Say</strong> Software</a>
 
               </header>
-              <section class="tiles">
-              <article class="style1">
-                <span class="image">
+              <section className="tiles">
+              <article className="style1">
+                <span className="image">
                   <img src="images/pic01.jpg" alt="" />
                 </span>
                 <a href="#"  onClick={() => ReactDOM.render(<Client />, document.getElementById('root'))}>
                   <h2>Clients</h2>
-                  <div class="content">
+                  <div className="content">
                     <p>Retrouvez tous vos clients</p>
                   </div>
                 </a>
               </article>
-              <article class="style2">
-                <span class="image">
+              <article className="style2">
+                <span className="image">
                   <img src="images/pic02.jpg" alt="" />
                 </span>
                 <a href="#"  onClick={() => ReactDOM.render(<Elements />, document.getElementById('root'))}>
                   <h2>Produits</h2>
-                  <div class="content">
+                  <div className="content">
                     <p>Tous vos produits à porter de clic</p>
                   </div>
                 </a>
               </article>
 
-              <article class="style3">
-                <span class="image">
+              <article className="style3">
+                <span className="image">
                   <img src="images/pic03.jpg" alt="" />
                 </span>
                 <a href="#"  onClick={() => ReactDOM.render(<Generic />, document.getElementById('root'))}>
                   <h2>Extractions</h2>
-                  <div class="content">
+                  <div className="content">
                     <p>Exportez toutes vos données au format Excel</p>
                   </div>
                 </a>
               </article>
 
-              <article class="style1">
-                <span class="image">
+              <article className="style1">
+                <span className="image">
                   <img src="images/pic09.jpg" alt="" />
                 </span>
                 <a href="#"  onClick={() => ReactDOM.render(<Generic />, document.getElementById('root'))}>
                   <h2>Commandes</h2>
-                  <div class="content">
+                  <div className="content">
                     <p>Passez vos commandes et retrouvez l''historique</p>
                   </div>
                 </a>
               </article>
-              <article class="style5">
-                <span class="image">
+              <article className="style5">
+                <span className="image">
                   <img src="images/pic10.jpg" alt="" />
                 </span>
                 <a href="generic.html">
                   <h2>Factures</h2>
-                  <div class="content">
+                  <div className="content">
                     <p>Retrouvez toutes vos factures</p>
                   </div>
                 </a>
               </article>
-              <article class="style6">
-                <span class="image">
+              <article className="style6">
+                <span className="image">
                   <img src="images/pic11.jpg" alt="" />
                 </span>
                 <a href="#"  onClick={() => ReactDOM.render(<Generic />, document.getElementById('root'))}>
                   <h2>Stocks</h2>
-                  <div class="content">
+                  <div className="content">
                     <p>Vous permet de gérer votre stock</p>
                   </div>
                 </a>
@@ -97,11 +97,11 @@ class Accueil extends Component {
         </div>
 
         <div id="sidebar">
-          <div class="inner">
+          <div className="inner">
 
 
               <nav id="menu">
-                <header class="major">
+                <header className="major">
                   <h2>Menu</h2>
                 </header>
                 <ul>
@@ -109,7 +109,7 @@ class Accueil extends Component {
                   <li><a href="#"  onClick={() => ReactDOM.render(<Client />, document.getElementById('root'))}>Clients</a></li>
                   <li><a href="#"  onClick={() => ReactDOM.render(<Generic />, document.getElementById('root'))}>Fournisseurs</a></li>
                   <li>
-                    <span class="opener">Gestion des ventes</span>
+                    <span className="opener">Gestion des ventes</span>
                     <ul>
                       <li><a href="#">Commandes</a></li>
                       <li><a href="#">Bons de livraisons</a></li>
@@ -117,7 +117,7 @@ class Accueil extends Component {
                     </ul>
                   </li>
                   <li>
-                    <span class="opener">Logistique</span>
+                    <span className="opener">Logistique</span>
                     <ul>
                       <li><a href="#">Fabrications</a></li>
                       <li><a href="#">Produits</a></li>
@@ -125,7 +125,7 @@ class Accueil extends Component {
                     </ul>
                   </li>
                   <li>
-                    <span class="opener">Comptabilité</span>
+                    <span className="opener">Comptabilité</span>
                     <ul>
                       <li><a href="#">Saisies</a></li>
                       <li><a href="#">Comptes</a></li>
@@ -134,7 +134,7 @@ class Accueil extends Component {
                     </ul>
                   </li>
                   <li>
-                    <span class="opener">Administration</span>
+                    <span className="opener">Administration</span>
                     <ul>
                       <li><a href="#">Extractions</a></li>
                       <li><a href="#">Clôture de l''exercice</a></li>
@@ -146,19 +146,19 @@ class Accueil extends Component {
 
 
               <section>
-                <header class="major">
+                <header className="major">
                   <h2>Support</h2>
                 </header>
-                <ul class="contact">
-                  <li class="fa-envelope-o"><a href="#">information@untitled.tld</a></li>
-                  <li class="fa-phone">(000) 000-0000</li>
-                  <li class="fa-home">Avenue rouget de Lisle<br />
+                <ul className="contact">
+                  <li className="fa-envelope-o"><a href="#">information@untitled.tld</a></li>
+                  <li className="fa-phone">(000) 000-0000</li>
+                  <li className="fa-home">Avenue rouget de Lisle<br />
                   Vitry-sur-Seine, 94400</li>
                 </ul>
               </section>
 
               <footer id="footer">
-                <p class="copyright">&copy; Say Enterprise. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+                <p className="copyright">&copy; Say Enterprise. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
               </footer>
 
           </div>

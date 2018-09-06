@@ -1,6 +1,5 @@
 body {
-    background: url('https://static-communitytable.parade.com/wp-content/uploads/2014/03/rethink-target-heart-rate-number-ftr.jpg') fixed;
-    background-size: cover;
+    
 }
 
 *[role="form"] {
@@ -11,7 +10,7 @@ body {
    background-color: #f2f2f2;
 }
 
-*[role="form"] h2 { 
+*[role="form"] h2 {
    font-family: 'Open Sans' , sans-serif;
    font-size: 40px;
    font-weight: 600;

@@ -16,3 +16,21 @@
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
+
+header.title_login > :last-child {
+  border-bottom: solid 3px #f56a6a;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 2em 0;
+  padding: 0.75em 0.75em 0.5em 0;
+}
+
+
+.center-block {
+  width: 100%
+}
+
+.login_panel {
+  background-color: #f5f6f7;
+}
