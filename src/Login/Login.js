@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Photo from './Photo.png';
 import './Login.css';
 import Inscription from '../Inscription/Inscription';
+import Accueil from '../Accueil/Accueil';
 
 class Login extends Component {
 
@@ -16,7 +17,7 @@ class Login extends Component {
 						<strong> Connectez-vous pour continuer</strong>
 					</div>
 					<div className="panel-body">
-						<form role="form" action="#" method="POST">
+						<form>
 							<fieldset>
 								<div className="row">
 									<div className="center-block">
@@ -30,7 +31,6 @@ class Login extends Component {
 												<span className="input-group-addon">
 													<i className="glyphicon glyphicon-user"></i>
 												</span>
-                        <!--commit test-->
 												<input className="form-control" placeholder="Username" name="loginname" type="text" autofocus/>
 											</div>
 										</div>
@@ -43,7 +43,7 @@ class Login extends Component {
 											</div>
 										</div>
 										<div className="form-group">
-											<input type="submit" className="btn btn-lg btn-primary btn-block" value="Se connecter"/>
+											<input onClick={() => ReactDOM.render(<Accueil />, document.getElementById('root'))} type="button" className="btn btn-lg btn-primary btn-block" value="Se connecter"/>
 										</div>
 									</div>
 								</div>
@@ -51,7 +51,7 @@ class Login extends Component {
 						</form>
 					</div>
 					<div className="panel-footer ">
-						Vous n'avez pas de compte! <a href="#" onClick={() => ReactDOM.render(<Inscription />, document.getElementById('root'))}> Inscrivez-vous ici </a>
+						Vous n''avez pas de compte! <a href="#" onClick={() => ReactDOM.render(<Inscription />, document.getElementById('root'))}> Inscrivez-vous ici </a>
 					</div>
                 </div>
 			</div>
